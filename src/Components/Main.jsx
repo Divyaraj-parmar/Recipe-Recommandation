@@ -5,7 +5,7 @@ import {generateRecipe} from '../utils/chef.ai'
 
 export default function Main() {
 
-    const [ingredients, setIngredients] = useState(["All the spices","pasta","tomato paste","cheese"])
+    const [ingredients, setIngredients] = useState([])
     const [recipe, setRecipe] = useState("");
 
     async function showRecipe(){
